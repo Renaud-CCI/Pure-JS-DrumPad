@@ -10,43 +10,50 @@
 <body>
     <h1>DRUM PAD</h1>
 <div class="pad">
-  <div data-key="65" class="key">
+  <div data-key="65" data-name="a" class="key">
     <kbd>A</kbd>
     <span class="sound">clap</span>
   </div>
-  <div data-key="90" class="key">
+  <div data-key="90" data-name="z" class="key">
     <kbd>Z</kbd>
     <span class="sound">hihat</span>
   </div>
-  <div data-key="69" class="key">
+  <div data-key="69" data-name="e" class="key">
     <kbd>E</kbd>
     <span class="sound">kick</span>
   </div>
-  <div data-key="81" class="key">
+  <div data-key="81" data-name="q" class="key">
     <kbd>Q</kbd>
     <span class="sound">openhat</span>
   </div>
-  <div data-key="83" class="key">
+  <div data-key="83" data-name="s" class="key">
     <kbd>S</kbd>
     <span class="sound">boom</span>
   </div>
-  <div data-key="68" class="key">
+  <div data-key="68" data-name="d" class="key">
     <kbd>D</kbd>
     <span class="sound">ride</span>
   </div>
-  <div data-key="87" class="key">
+  <div data-key="87" data-name="w" class="key">
     <kbd>W</kbd>
     <span class="sound">snare</span>
   </div>
-  <div data-key="88" class="key">
+  <div data-key="88" data-name="x" class="key">
     <kbd>X</kbd>
     <span class="sound">tom</span>
   </div>
-  <div data-key="67" class="key">
+  <div data-key="67"data-name="c"  class="key">
     <kbd>C</kbd>
     <span class="sound">tink</span>
   </div>
 
+</div>
+<br>
+<!----Buttons-->
+<div class="pad">
+  <button id="queen" data-name="queen">Queen</button>
+  <button id="random" data-name="rap">Random</button>
+  <button id="rap" data-name="rap">Rap</button>
 </div>
 <!-- Audio source -->
 <audio data-key="65" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1159990/clap.wav"></audio>
